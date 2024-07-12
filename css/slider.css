@@ -1,0 +1,119 @@
+/*====  VARIABLES ============================ */
+:root {
+  scroll-behavior: smooth;
+  /* Colors */
+  --body-color: rgb(0, 0, 0);
+  --body-color-alt: rgb(255, 255, 255);
+  --title-color: rgb(0, 0, 0);
+  --text-color: rgb(255, 255, 255);
+  --text-color-alt: #3b3b3b;
+  --hover-color: rgb(255, 50, 75);
+  --hover-color-alt: rgb(255, 50, 100);
+
+  /* Fonts */
+  --poppins: 'Poppins', sans-serif;
+  --dm-sans: 'DM Sans', sans-serif;
+  --nunito: 'Nunito', sans-serif;
+}
+
+/*====  PARTNERS   ============================ */
+#partners.section {
+  align-items: center;
+  background: #e3e3e3;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 2% 0%;
+  padding: 0%;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 28));
+  }
+}
+
+.slider {
+  background: #000;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(to right, #000 0%, rgba(255, 255, 255, 0) 100%);
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider .slide-track {
+  animation: scroll 120s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.opera-logo,
+.square-logo,
+.genshin-logo,
+.raid-logo,
+.sraiders-logo,
+.marbles-logo,
+.exitlag-logo {
+  overflow: auto;
+  white-space: nowrap;
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 6rem 6rem;
+  margin: 0.5rem 10rem;
+}
+
+.opera-logo {
+  background-image: url(../assets/logos/OPERA.webp);
+}
+
+.square-logo {
+  background-image: url(../assets/logos/SQUARE.webp);
+}
+
+.genshin-logo {
+  background-image: url(../assets/logos/GENSHIN.webp);
+}
+
+.raid-logo {
+  background-image: url(../assets/logos/RAID.webp);
+}
+
+.sraiders-logo {
+  background-image: url(../assets/logos/RAIDERS.webp);
+}
+
+.marbles-logo {
+  background-image: url(../assets/logos/MARBLES.webp);
+}
+
+.exitlag-logo {
+  background-image: url(../assets/logos/EXITLAG.webp);
+}

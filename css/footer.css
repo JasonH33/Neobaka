@@ -1,0 +1,54 @@
+/*====  VARIABLES ============================ */
+:root {
+  scroll-behavior: smooth;
+  /* Colors */
+  --body-color: rgb(0, 0, 0);
+  --body-color-alt: rgb(255, 255, 255);
+  --title-color: rgb(0, 0, 0);
+  --text-color: rgb(255, 255, 255);
+  --text-color-alt: #3b3b3b;
+  --hover-color: rgb(255, 50, 75);
+  --hover-color-alt: rgb(255, 50, 100);
+
+  /* Fonts */
+  --poppins: 'Poppins', sans-serif;
+  --dm-sans: 'DM Sans', sans-serif;
+  --nunito: 'Nunito', sans-serif;
+}
+
+/*====  FOOTER ============================ */
+footer {
+  background: var(--body-color);
+}
+
+footer.section {
+  padding: 0.5rem 0rem;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  font-size: 0.75rem;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.dev {
+  color: rgba(250, 250, 250, 0.6);
+}
+
+.dev:hover {
+  color: rgba(250, 250, 250, 1);
+  transition: 0.5s;
+}
+
+.dev a:hover {
+  color: rgba(180, 24, 24, 1);
+  transition: 0.5s;
+}

@@ -1,0 +1,142 @@
+/*====  VARIABLES ============================ */
+:root {
+  scroll-behavior: smooth;
+  /* Colors */
+  --body-color: rgb(0, 0, 0);
+  --body-color-alt: rgb(255, 255, 255);
+  --title-color: rgb(0, 0, 0);
+  --text-color: rgb(255, 255, 255);
+  --text-color-alt: #3b3b3b;
+  --hover-color: rgb(255, 50, 75);
+  --hover-color-alt: rgb(255, 50, 100);
+
+  /* Fonts */
+  --poppins: 'Poppins', sans-serif;
+  --dm-sans: 'DM Sans', sans-serif;
+  --nunito: 'Nunito', sans-serif;
+}
+
+/*====  STATUS  ============================ */
+.stats-img {
+  display: block;
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin: -2% 0% 0% 20%;
+}
+
+#status.section {
+  height: 100%;
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+}
+
+.status.grid {
+  /*grid-template-columns: 1fr 2fr;*/
+  width: 70vw;
+  margin: 4% 0%;
+}
+
+#status .title,
+#status .subtitle {
+  color: var(--title-color);
+}
+
+#status .subtitle {
+  margin: 0% 0% 2% 0%
+}
+
+#status h4.subtitle {
+  margin: 0;
+}
+
+.stats-first {
+  margin: 2%;
+}
+
+.stats-first .title {
+  margin: 0.5% 0%;
+}
+
+div.stats-container {
+  width: 100%;
+  height: 100%;
+}
+
+div.stats-container,
+div.stats-block {
+  z-index: 10;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 6px 6px #000;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.stats-block {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.stats-container p,
+.stats-block p {
+  text-align: left;
+  color: var(--text-color-alt);
+  font-family: var(--nunito);
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.stats-container p {
+  font-weight: 600;
+}
+
+.stats.grid {
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  width: 70vw;
+}
+
+div.stats .title {
+  font-size: 1.5rem;
+}
+
+.stats-item {
+  margin: 2%;
+}
+
+.stats-icon {
+  position: absolute;
+  height: auto;
+  width: 3%;
+  margin: -2% 0% 0% 26%;
+}
+
+#mini_logo {
+  position: absolute;
+  height: auto;
+  margin: -3.5% 0% 0% -3%;
+  width: 5%;
+
+}
+
+#twitch-s_icon {
+  width: 2.5% !important;
+  margin: -1.5% 0% 0% 26%;
+}
+
+#youtube-s_icon {
+  width: 3.5% !important;
+
+}
+
+button.stats-button {
+  width: 20%;
+  height: 50%;
+  margin: 2rem 0rem;
+  border-radius: 0.5rem;
+  border: none;
+  box-shadow: 6px 6px #000;
+}

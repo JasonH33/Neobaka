@@ -1,0 +1,968 @@
+/*==================== HEIGHT ======================*/
+/* Surface Pro || iPad Pro */
+@media (min-height: 1360px) and (max-height: 1370px) {
+  section#home {
+    height: 40vh !important;
+  }
+
+  nav ul li a.title,
+  #status h3,
+  #contact h2,
+  #contact h3 {
+    font-size: 2rem !important;
+  }
+
+  .banner video {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  #talents h1,
+  #talents h3,
+  #status h4 {
+    font-size: 1.4rem !important;
+  }
+
+  .cards.grid {
+    grid-template-columns: 0fr 0fr 0fr;
+    gap: 4rem;
+  }
+
+  .card#N,
+  .card#R {
+    margin: 0% 0% 0% 100%;
+  }
+
+  div.subs-container {
+    width: 60vh !important;
+  }
+
+  div.subs i {
+    font-size: 1.8rem !important;
+  }
+
+  div.subs p {
+    font-size: 1.2rem !important;
+  }
+
+  .stats-container p,
+  .stats-block p {
+    font-size: 1rem !important;
+  }
+
+
+  .cards.grid {
+    gap: 1.5rem !important;
+  }
+
+  .card {
+    height: 28vh !important;
+    width: 21vw !important;
+  }
+
+  div.stats-container {
+    width: 100% !important;
+  }
+
+  .status.grid {
+    width: 60vh !important;
+  }
+
+  .stats.grid {
+    gap: 2rem !important;
+    width: 60vh !important;
+  }
+
+  .stats-img {
+    width: 75% !important;
+    margin: 15vh 0% 0% 15vh !important;
+  }
+
+  #mini_logo {
+    width: 10% !important;
+    margin: -6.5% 0% 0% -4.5% !important;
+  }
+
+  .stats-icon {
+    width: 6% !important;
+    margin: -3% 0% 0% 25% !important;
+  }
+
+  #youtube-s_icon {
+    width: 6.5% !important;
+    margin: -3.25% 0% 0% 25% !important;
+  }
+
+  #twitch-s_icon {
+    width: 5.5% !important;
+    margin: -2.25% 0% 0% 25% !important;
+  }
+
+  .audit-container,
+  .contact-container {
+    width: 60% !important;
+  }
+
+  .logo {
+    width: 15% !important;
+    padding: 4% !important;
+  }
+
+  .popup {
+    height: 50vh !important;
+    margin: 20vh auto !important;
+  }
+}
+
+/* iPad Air */
+@media (min-height: 1180px) and (max-height: 1180px) {
+  section#home {
+    height: 40vh;
+    width: 0;
+  }
+
+  .banner video {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .talent-title-container {
+    width: 40% !important;
+  }
+
+  .cards.grid {
+    gap: 1rem !important;
+  }
+
+  .card {
+    height: 30vh !important;
+    width: 20vw !important;
+  }
+
+  .popup {
+    height: 50vh !important;
+    margin: 20vh auto !important;
+  }
+
+  .cards.grid {
+    grid-template-columns: 0fr 0fr 0fr;
+    gap: 4rem;
+  }
+
+  .card#N,
+  .card#R {
+    margin: 0% 0% 0% 100%;
+  }
+
+  div.subs-container {
+    width: 52vh !important;
+  }
+
+  div.subs {
+    width: 60% !important;
+  }
+
+  .status.grid {
+    width: 40vh !important;
+  }
+
+  .stats.grid {
+    gap: 2rem !important;
+    width: 52vh !important;
+  }
+
+  div.stats-container {
+    width: 130% !important;
+  }
+
+  .stats-icon {
+    width: 5% !important;
+    margin: -3.5% 0% 0% 14% !important;
+  }
+
+  #youtube-s_icon {
+    width: 5.5% !important;
+    margin: -4% 0% 0% 14% !important;
+  }
+
+  #twitch-s_icon {
+    width: 4.5% !important;
+    margin: -3% 0% 0% 14% !important;
+  }
+
+  button.stats-button {
+    width: 30% !important;
+  }
+}
+
+/* iPhone X */
+@media (min-height: 812px) and (max-height: 812px) {
+  .card {
+    height: 30vh !important;
+  }
+
+  .stats-img {
+    margin: -50vh 0% 0% 0% !important;
+  }
+
+  .popup {
+    height: 45vh !important;
+  }
+}
+
+/*iPhone SE */
+@media (min-height: 667px) and (max-height: 670px) {
+  .card {
+    height: 25vh !important;
+  }
+}
+
+@media (min-height: 640px) and (max-height: 650px) {
+  section#home {
+    width: 100vw;
+    height: 70vh;
+    max-height: 100vh;
+    width: 0;
+  }
+
+  .card {
+    height: 35vh !important;
+  }
+
+  .stats-img {
+    margin: -130vh 0% 0% 0% !important;
+  }
+
+  .popup {
+    height: 70vh !important;
+    margin: 20vh auto !important;
+  }
+}
+
+/* iPhone 5/SE */
+@media (min-height: 568px) and (max-height: 568px) {
+  .cards.grid {
+    gap: 1rem !important;
+  }
+
+  .card {
+    height: 35vh !important;
+    width: 35vw !important;
+  }
+
+  div.subs-container {
+    width: 45vh !important;
+  }
+
+  .stats-img {
+    margin: -75vh 0% 0% 0% !important;
+  }
+}
+
+/*==================== WIDTH ======================*/
+@media (min-width: 2000px) {
+
+  nav ul li a.title,
+  #status h3,
+  #contact h2,
+  #contact h3 {
+    font-size: 2rem;
+  }
+
+  #talents h1,
+  #talents h3,
+  #status h4 {
+    font-size: 1.7rem;
+  }
+
+  #contact .subtitle {
+    font-size: 1.35rem;
+  }
+
+  div.subs-container {
+    width: 50vw;
+  }
+
+  div.subs i {
+    font-size: 2.2rem;
+  }
+
+  div.subs p,
+  #contact p {
+    font-size: 1.5rem;
+  }
+
+  .stats-container p,
+  .stats-block p {
+    font-size: 1.25rem;
+  }
+
+  .card {
+    height: 50vh;
+  }
+
+  .stats-img {
+    width: 40%;
+    margin: -1% 0% 0% 20%;
+  }
+
+  .logo {
+    width: 10%;
+  }
+}
+
+@media (max-width: 1600px) {
+
+  nav ul li a.title,
+  #status h3,
+  #contact h2,
+  #contact h3 {
+    font-size: 1.5rem;
+  }
+
+  #talents h1,
+  #talents h3,
+  #status h4 {
+    font-size: 1.3rem;
+  }
+
+  #contact .subtitle {
+    font-size: 1rem;
+  }
+
+  div.subs {
+    width: 70%;
+    grid-template-columns: 10% 15% 10% 15% 10% 15% 10% 15%;
+  }
+
+  div.subs i {
+    font-size: 1.8rem;
+  }
+
+  div.subs p {
+    font-size: 1.25rem;
+  }
+
+  .stats-img {
+    width: 55%;
+  }
+}
+
+@media (max-width: 1370px) {
+
+  nav ul li a.title,
+  #status h3,
+  #contact h2,
+  #contact h3 {
+    font-size: 1.4rem;
+  }
+
+  #talents h1,
+  #talents h3,
+  #status h4 {
+    font-size: 1.2rem;
+  }
+
+  #contact .subtitle {
+    font-size: 1rem;
+  }
+
+  div.subs i {
+    font-size: 1.6rem;
+  }
+
+  div.subs p {
+    font-size: 1.1rem;
+  }
+
+  .cards.grid {
+    gap: 2.5rem;
+  }
+
+  .stats-img {
+    width: 60%;
+    margin: -1% 0% 0% 26%;
+  }
+
+  .status.grid {
+    width: 65vw;
+  }
+
+  div.stats-container {
+    width: 110%;
+  }
+
+  .stats-icon {
+    margin: -2.25% 0% 0% 22%;
+  }
+
+  #youtube-s_icon {
+    margin: -2.5% 0% 0% 22%;
+  }
+
+  #twitch-s_icon {
+    margin: -1.85% 0% 0% 22%;
+  }
+
+  .carousel-cell:nth-child(1) {
+    margin: 0% 0% 0% 15%;
+  }
+
+  .carousel-cell:nth-child(4) {
+    margin: 0% 0% 0% 32%;
+  }
+
+  .carousel-cell:nth-child(7) {
+    margin: 0% 0% 0% 31%;
+  }
+}
+
+@media (max-width: 1280px) {
+
+  nav ul li a.title,
+  #status h3,
+  #contact h2,
+  #contact h3 {
+    font-size: 1.2rem;
+  }
+
+  #talents h1,
+  #talents h3,
+  #status h4 {
+    font-size: 1.1rem;
+  }
+
+  #contact .subtitle {
+    font-size: 0.8rem;
+  }
+
+  div.subs i {
+    font-size: 1.3rem;
+  }
+
+  div.subs p {
+    font-size: 1rem;
+  }
+
+  .stats-container p,
+  .stats-block p {
+    font-size: 0.9rem;
+  }
+
+  .stats-img {
+    width: 55%;
+    margin: 0% 0% 0% 20%;
+  }
+}
+
+/* iPad */
+@media (min-width: 768px) and (max-width: 768px) {
+  .cards.grid {
+    grid-template-columns: 0fr 0fr 0fr;
+    gap: 4rem;
+  }
+
+  .card#N,
+  .card#R {
+    margin: 0% 0% 0% 100%;
+  }
+
+  .stats-icon {
+    width: 6%;
+    margin: -3.25% 0% 0% 55% !important;
+  }
+
+  #youtube-s_icon {
+    margin: -3.5% 0% 0% 55% !important;
+  }
+
+  #twitch-s_icon {
+    margin: -2.75% 0% 0% 55% !important;
+  }
+
+  #mini_logo {
+    margin: -6.5% 0% 0% -5% !important;
+    width: 10%;
+  }
+}
+
+/* NEST HUB*/
+@media (max-width: 1024px) and (min-width: 1024px) {
+  .stats-img {
+    width: 70%;
+    margin: 10% 0% 0% 20%;
+  }
+
+  .stats-icon {
+    width: 4%;
+    margin: -3% 0% 0% 22%;
+  }
+
+  #youtube-s_icon {
+    width: 6.5% !important;
+    margin: -3.25% 0% 0% 22%;
+  }
+
+  #twitch-s_icon {
+    width: 5.5% !important;
+    margin: -2.5% 0% 0% 22%;
+  }
+}
+
+@media (max-width: 800px) {
+
+  div.stats-container,
+  div.stats-block {
+    padding: 2%;
+  }
+
+  #talents .talent-title {
+    font-size: 1.8rem !important;
+  }
+
+  #talents h1,
+  #talents h3,
+  #status h4 {
+    font-size: 1rem !important;
+  }
+
+  div.subs-container {
+    width: 90vw;
+  }
+
+  div.subs {
+    width: 70%;
+  }
+
+  div.subs i {
+    font-size: 1.15rem;
+  }
+
+  div.subs p {
+    font-size: 0.95rem;
+  }
+
+  .logo {
+    width: 15%;
+    padding: 4%;
+  }
+
+  section#home {
+    height: 50vw;
+  }
+
+  .banner video {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .talent-title-container {
+    width: 30%;
+  }
+
+  .cards.grid {
+    gap: 1rem;
+  }
+
+  .card {
+    height: 35vh;
+    width: 20vw;
+  }
+
+  .popup {
+    height: 45vh;
+    margin: 30vh auto;
+  }
+
+  .status.grid,
+  .stats.grid {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .status.grid {
+    margin: 12% 0% 12% 0%;
+  }
+
+  .stats.grid {
+    gap: 2.5rem;
+  }
+
+  div.stats-container {
+    width: 100%;
+  }
+
+  .stats-img {
+    width: 60%;
+    margin: -90vh 0% 0% 0%;
+  }
+
+  .stats-icon {
+    width: 6%;
+    margin: -4.25% 0% 0% 30%;
+  }
+
+  #youtube-s_icon {
+    width: 6.5% !important;
+    margin: -4.5% 0% 0% 30%;
+  }
+
+  #twitch-s_icon {
+    width: 5.5% !important;
+    margin: -3.75% 0% 0% 30%;
+  }
+
+  button.stats-button {
+    width: 40%;
+  }
+
+  #partners.section {
+    margin: 4% 0%;
+  }
+
+  #contact.section {
+    margin-bottom: 4%;
+  }
+
+  .audit-button {
+    height: 20%;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .carousel,
+  .carousel-header,
+  .carousel-nav {
+    display: none;
+  }
+
+  .carousel-header-mobile,
+  .carousel-title-mobile,
+  .text-container-mobile,
+  #carouselTitleMobile,
+  #carouselTextMobile {
+    display: block;
+    font-size: 0.5rem !important;
+  }
+
+  .carousel-title-mobile {
+    white-space: nowrap;
+    color: #ffffff !important;
+    font-family: var(--nunito);
+    text-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
+  }
+
+  .carousel-header-mobile {
+    display: flex;
+    width: 80%;
+    border-radius: 100%;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-container-mobile {
+    background-color: #3F557A;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    flex-grow: 1;
+    max-width: 80%;
+    margin-left: 10px;
+    text-align: left;
+    font-size: 1.2em;
+    box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.5);
+  }
+
+  .character-grid {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0fr 0fr 0fr;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .divider {
+    display: block;
+  }
+
+  nav .menu {
+    opacity: 0;
+    visibility: hidden;
+    top: -20rem;
+    transition: 0.3s;
+  }
+
+  nav .menu ul {
+    display: none;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  nav ul li a.title {
+    font-size: 2rem;
+  }
+
+
+  .toggle {
+    display: block;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+
+  i.fa-bars,
+  i.fa-xmark {
+    display: block;
+  }
+
+  i.fa-xmark {
+    margin: 0% 0% 0% 100%;
+  }
+
+  .logo {
+    width: 20%;
+    padding: 5%;
+  }
+
+  .cards.grid {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .card {
+    border-radius: 1rem;
+    width: 25vw;
+    align-items: center;
+  }
+
+  .card#Toshi,
+  .card#Dante,
+  .card#Eeiris,
+  .card#Raviel,
+  .card#Eveline,
+  .card#Torajo,
+  .card#Emi,
+  .card#N {
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .card#Toshi {
+    background-image: url(../assets/artes/toshi_site.webp);
+  }
+
+  .card#Dante {
+    background-image: url(../assets/artes/dante_site.webp);
+  }
+
+  .card#Eeiris {
+    background-image: url(../assets/artes/eeiris_site.webp);
+  }
+
+  .card#Raviel {
+    background-image: url(../assets/artes/ravi_site.webp);
+  }
+
+  .card#Eveline {
+    background-image: url(../assets/artes/eve_site.webp);
+  }
+
+  .card#Torajo {
+    background-image: url(../assets/artes/torajo_site.webp);
+  }
+
+  .card#Emi {
+    background-image: url(../assets/artes/emi_site.webp);
+  }
+
+  .card#N {
+    background-image: url(../assets/artes/holder.webp);
+  }
+
+
+  .card#Toshi:hover,
+  .card#Dante:hover,
+  .card#Eeiris:hover,
+  .card#Raviel:hover,
+  .card#Eveline:hover,
+  .card#Torajo:hover,
+  .card#Emi:hover {
+    transform: translate(0.20rem, 0.20rem);
+    cursor: pointer;
+  }
+
+  /* POP-UP */
+  .popup-wrapper-toshi,
+  .popup-wrapper-dante,
+  .popup-wrapper-eeiris,
+  .popup-wrapper-raviel,
+  .popup-wrapper-eveline,
+  .popup-wrapper-torajo,
+  .popup-wrapper-emi {
+    display: none;
+    background: rgba(0, 0, 0, 0.4);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 50;
+  }
+
+  .popup {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 60;
+    width: 50vw;
+    height: 70vh;
+    margin: 15vh auto;
+  }
+
+  div.subs-container {
+    margin: 5% 15% 0% 15%;
+    width: 70vw;
+    flex-direction: column;
+  }
+
+  div.subs {
+    width: 90%;
+  }
+
+  .stats-icon {
+    width: 8%;
+    margin: -4.25% 0% 0% 55%;
+  }
+
+  #mini_logo {
+    height: auto;
+    margin: -7% 0% 0% -5%;
+    width: 12%;
+  }
+
+  #twitch-s_icon {
+    width: 7.5% !important;
+    margin: -4.75% 0% 0% 55%;
+  }
+
+  #youtube-s_icon {
+    width: 8.5% !important;
+    margin: -4.5% 0% 0% 55%;
+  }
+}
+
+@media (max-width: 500px) {
+  .stats-img {
+    width: 70%;
+  }
+
+  div.subs i {
+    font-size: 1rem;
+  }
+
+  #status h3,
+  #contact h2,
+  #contact h3 {
+    font-size: 1rem;
+  }
+
+  div.subs p,
+  .stats-container p,
+  .stats-block p,
+  #contact p {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 450px) {
+
+  nav ul li a.title {
+    font-size: 1.5rem;
+  }
+
+  .talent-title-container {
+    width: 50%;
+  }
+
+  .carousel-header-mobile {
+    margin: 0% 0% 10% 0%
+  }
+
+  .card {
+    height: 20vh;
+  }
+
+  .stats-img {
+    margin: -195vw 0% 0% 0%;
+  }
+}
+
+@media (max-width: 390px) {
+  .stats-img {
+    margin: -210vw 0% 0% 0%;
+  }
+
+  .stats-icon {
+    width: 9%;
+  }
+
+  #youtube-s_icon {
+    width: 10.5% !important;
+  }
+
+  #twitch-s_icon {
+    width: 9.5% !important;
+  }
+
+  .stats.grid {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .card {
+    height: 40vh;
+  }
+
+  div.subs {
+    width: 100%;
+  }
+
+  .stats-img {
+    margin: -130vw 0% 0% 0%;
+  }
+
+  button.stats-button {
+    width: 60%;
+  }
+
+  .audit-container {
+    padding: 5%;
+  }
+
+  .popup {
+    height: 55vh;
+    margin: 25vh auto;
+  }
+}
+
+@media (max-width: 360px) {
+  .card {
+    height: 20vh;
+  }
+
+  .popup {
+    height: 40vh;
+    margin: 30vh auto;
+  }
+}

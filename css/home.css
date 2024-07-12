@@ -1,0 +1,56 @@
+/*====  VARIABLES ============================ */
+:root {
+  scroll-behavior: smooth;
+  /* Colors */
+  --body-color: rgb(0, 0, 0);
+  --body-color-alt: rgb(255, 255, 255);
+  --title-color: rgb(0, 0, 0);
+  --text-color: rgb(255, 255, 255);
+  --text-color-alt: #3b3b3b;
+  --hover-color: rgb(255, 50, 75);
+  --hover-color-alt: rgb(255, 50, 100);
+
+  /* Fonts */
+  --poppins: 'Poppins', sans-serif;
+  --dm-sans: 'DM Sans', sans-serif;
+  --nunito: 'Nunito', sans-serif;
+}
+
+/*====  HOME ============================ */
+section#home {
+  width: 100vw;
+  height: 70vh;
+  max-height: 100vh;
+  width: 0;
+}
+
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.banner-popup {
+  display: block;
+  position: relative;
+  z-index: 60;
+  width: 100%;
+}
+
+.popup-wrapper-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup-wrapper-banner img {
+  width: 100%;
+  height: auto;
+}

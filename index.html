@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Site Oficial da agência de Vtubers Neobaka" />
+  <meta name="keywords"
+    content="Neobaka, Beonaka, Vtuber, Agência, Agência Vtuber, Agência de Vtubers, Toshiruz, DanteWill, Eeiris, Raviel Karim, Eveline Teach, Torajo, Emi Kotone" />
+  <meta name="author" content="Jason Hornet" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="assets/logos/favicon.png" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Nunito:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/queries.css">
+  <title>NEOBAKA</title>
+</head>
+
+<body>
+  <header id="header">
+    <div class="logo" id="logo"></div>
+    <nav class="container">
+      <!-- Menu -->
+      <div class="menu">
+        <ul class="grid">
+          <i class="toggle fa-solid fa-xmark"></i>
+          <li><a class="title" href="#home">HOME</a></li>
+          <li><a class="title" href="#talentos">TALENTOS</a></li>
+          <li><a class="title" href="#contact">AUDIÇÕES</a></li>
+          <li><a class="title" href="#contact">CONTATO</a></li>
+          <li>
+            <a class="title" href="https://neobakastore.com/">LOJA</a>
+          </li>
+        </ul>
+      </div>
+      <i class="toggle fa-solid fa-bars"></i>
+    </nav>
+  </header>
+  <main>
+    <section class="section" id="main">
+      <!-- HOME & VIDEO -->
+      <section id="home">
+        <div class="banner"></div>
+        <div class="popup-wrapper-banner" onclick="closeP()">
+          <div class="banner-popup">
+            <img src="assets/backgrounds/banner_mm.png">
+          </div>
+        </div>
+      </section>
+
+      <!-- TALENTS -->
+      <section class="section" id="talents">
+        <div class="container center">
+          <div class="talent-title-container">
+            <h1 class="subtitle talent-title">TALENTOS</h1>
+          </div>
+        </div>
+
+        <!-- CAROUSEL -->
+        <div class="container grid">
+          <div class="cards grid">
+            <div class="carousel-header">
+              <h1 id="carouselTitle" class="carousel-title">1° Geração • </h1>
+              <div class="text-container">
+                <p id="carouselText">A primeira geração de Talentos é composta por três integrantes, conhecidos como os
+                  "Viajantes". Cada um deles possui uma história única que os envolve em aventuras através do tempo.
+                </p>
+              </div>
+            </div>
+
+            <!-- CARDS -->
+            <div class="carousel-header-mobile">
+              <h1 id="carouselTitleMobile" class="carousel-title-mobile">1° Geração • </h1>
+              <div class="text-container-mobile">
+                <p id="carouselTextMobile">A primeira geração de Talentos é composta por três integrantes, conhecidos
+                  como os
+                  "Viajantes". Cada um deles possui uma história única que os envolve em aventuras através do tempo.
+                </p>
+              </div>
+            </div>
+
+            <div class="character-grid">
+              <!-- Tozi -->
+              <div class="card" id="Toshi" onclick="openT()"></div>
+              <div class="popup-wrapper-toshi" onclick="closeP()">
+                <div class="popup">
+                  <img src="assets/artes/popup-toshiruz.png">
+                </div>
+              </div>
+
+              <!-- Dante -->
+              <div class="card" id="Dante" onclick="openD()"></div>
+              <div class="popup-wrapper-dante" onclick="closeP()">
+                <div class="popup">
+                  <img src="assets/artes/popup-dante.png">
+                </div>
+              </div>
+
+              <!-- Eeiris -->
+              <div class="card" id="Eeiris" onclick="openE()"></div>
+              <div class="popup-wrapper-eeiris" onclick="closeP()">
+                <div class="popup">
+                  <img src="assets/artes/popup-eeirs.png">
+                </div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="carousel-header-mobile">
+              <h1 id="carouselTitleMobile" class="carousel-title-mobile">2° Geração • </h1>
+              <div class="text-container-mobile">
+                <p id="carouselTextMobile"> A segunda geração, chamada de “Destinados", é formada por humanos que por
+                  sua história individual obtém uma joia consagrada (colares), cada um contendo o poder selado de um
+                  deus elementar nomeado de “Mentores”.
+                </p>
+              </div>
+            </div>
+
+            <div class="character-grid">
+              <!-- Ravi -->
+              <div class="card" id="Raviel" onclick="openR()"></div>
+              <div class="popup-wrapper-raviel" onclick="closeP()">
+                <div class="popup">
+                  <img src="assets/artes/popup-ravi.png">
+                </div>
+              </div>
+
+              <!-- Eve -->
+              <div class="card" id="Eveline" onclick="openV()"></div>
+              <div class="popup-wrapper-eveline" onclick="closeP()">
+                <div class="popup">
+                  <img src="">
+                </div>
+              </div>
+
+              <!-- placeholder -->
+              <div class="card" id="N"></div>
+              <div class="popup-wrapper-eveline" onclick="closeP()">
+                <div class="popup">
+                  <img src="">
+                </div>
+              </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="carousel-header-mobile">
+              <h1 id="carouselTitleMobile" class="carousel-title-mobile">3° Geração • </h1>
+              <div class="text-container-mobile">
+                <p id="carouselTextMobile">A geração Extra, denominada "NeoX", é composta por criadores de conteúdo já
+                  conhecidos pelo público, que decidiram se juntar à parceria com a agência.
+                </p>
+              </div>
+            </div>
+
+            <div class="character-grid">
+              <!-- Torajo -->
+              <div class="card" id="Torajo" onclick="openA()"></div>
+              <div class="popup-wrapper-torajo" onclick="closeP()">
+                <div class="popup">
+                  <img src="">
+                </div>
+              </div>
+
+              <!-- Emi -->
+              <div class="card" id="Emi" onclick="openK()"></div>
+              <div class="popup-wrapper-emi" onclick="closeP()">
+                <div class="popup">
+                  <img src="">
+                </div>
+              </div>
+
+              <!-- placeholder -->
+              <div class="card" id="N"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div class="carousel">
+            <div class="carousel-cell">
+              <img src="assets/artes/toshi_site.webp" alt="Personagem 1">
+            </div>
+            <div class="carousel-cell">
+              <img src="assets/artes/dante_site.webp" alt="Personagem 2">
+            </div>
+            <div class="carousel-cell">
+              <img src="assets/artes/eeiris_site.webp" alt="Personagem 3">
+            </div>
+            <div class="carousel-cell">
+              <img src="assets/artes/ravi_site.webp" alt="Personagem 4">
+            </div>
+            <div class="carousel-cell">
+              <img src="assets/artes/eve_site.webp" alt="Personagem 5">
+            </div>
+            <div class="carousel-cell">
+              <img src="assets/artes/holder.webp" alt="Personagem 6">
+            </div>
+            <div class="carousel-cell">
+              <img src="assets/artes/torajo_site.webp" alt="Personagem 7">
+            </div>
+            <div class="carousel-cell">
+              <img src="assets/artes/emi_site.webp" alt="Personagem 8">
+            </div>
+            <div class="carousel-cell">
+              <img src="assets/artes/holder.webp" alt="Personagem 9">
+            </div>
+          </div>
+          <div class="carousel-nav">
+            <button id="prevBtn"><i class="fa-solid fa-circle-chevron-left"></i></button>
+            <button id="nextBtn"><i class="fa-solid fa-circle-chevron-right"></i></button>
+          </div>
+        </div>
+
+        <div class="subs-container">
+          <h3 class="title subtitle">ALCANCE GERAL</h3>
+          <div class="subs">
+            <a href="https://www.youtube.com/@NEOBAKA">
+              <i class="fa-brands fa-youtube" id="youtube"></i> </a>
+            <p>2,5M+</p>
+
+            <a href="https://www.twitch.tv/team/neobaka">
+              <i class="fa-brands fa-twitch" id="twitch"></i> </a>
+            <p>469K+</p>
+
+            <a href="">
+              <i class="fa-brands fa-tiktok" id="tiktok"></i> </a>
+            <p>1,5M+</p>
+
+            <a href="https://twitter.com/neobaka">
+              <i class="fa-brands fa-twitter" id="twitter"></i> </a>
+            <p>1M+</p>
+          </div>
+        </div>
+        </div>
+        </div>
+
+      </section>
+
+      <!-- STATUS -->
+      <section class="section" id="status">
+        <div class="status grid">
+          <div class="stats-container">
+            <div class="stats-first">
+              <img class="stats-icon" src="assets/logos/mini-logo.png" id="mini_logo" loading="lazy"></img>
+              <h3 class="title left">SOBRE</h3>
+              <p>
+                <strong>A NEOBAKA</strong> é a maior org de VTuber (virtual creators) do país.
+                Produzimos conteúdo em várias plataformas, sendo todos eles baseados nas STREAMs.
+                Nossos membros fazem LIVE diariamente, sempre batendo papo com a galera, reagindo a videos de humor, e
+                jogando jogos variados.
+              </p>
+              <h3 class="title right">VTUBER</h3>
+              <p>
+                VTubers são uma categoria nova de conteúdo, nós não nos apresentamos com a própria imagem, mas
+                sim com um avatar construído para capturar movimentos e expressões. Assim conseguimos não apenas criar
+                um conteúdo inovador, mas também manter o anonimato de uma forma divertida e criativa.
+              </p>
+              <h3 class="title left">CONTEÚDO</h3>
+              <p>
+                O conteúdo é sempre voltado para um público jovem, na maioria das vezes são jogos e bate-papo.
+                Porém, sempre mantendo uma vibe tranquila, sem palavreado pesado, e passando uma mensagem positiva.
+                Realizamos LIVES beneficentes recorrentes no Natal e datas comemorativas.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="stats grid">
+          <div class="stats-block">
+            <div class="stats-item">
+              <h3 class="subtitle left blackp">NÚMEROS & REDES</h3>
+              <p>
+                Começamos a produzir conteúdo recentemente (menos de 2 anos) e já atingimos números incríveis
+                para essa faixa de tempo. Sem falar na diversidade do público interessado neste tipo de conteúdo.
+                Aqui você verá alguns números atingidos por nossos membros.
+              </p>
+            </div>
+          </div>
+          <div class="stats-block" id="tiktok-stats">
+            <img class="stats-icon" src="assets/logos/tiktok.webp" id="tiktok-s_icon" loading="lazy"></img>
+            <div class="stats-item">
+              <h3 class="subtitle left whitep">TIKTOK</h3>
+              <p class="whitep">
+                O Tiktok vem sendo um verdadeiro fenômeno! Na rede temos mais de 1,5M+ seguidores e uma média mensal
+                de visualizações acima da casa dos MILHÕES. Vtubers vem sendo uma febre devido a novidade. Toshi e Dante
+                (nossos membros) são os maiores vtubers da plataforma.
+              </p>
+            </div>
+          </div>
+          <div class="stats-block" id="youtube-stats">
+            <img class="stats-icon" src="assets/logos/youtube.webp" id="youtube-s_icon" loading="lazy"></img>
+            <div class="stats-item">
+              <h3 class="subtitle left whitep">YOUTUBE</h3>
+              <p class="whitep">
+                Temos mais de 8 MILHÕES de visualizações mensais no YouTube e 2,5M+ inscritos, com canais bastante
+                novos. Nossos membros postam diariamente entre 1 à 2 vídeos de humor, jogos e reação. O demográfico
+                atingido na plataforma vermelha é maioria jovens de 13 à 18 anos, com média de mais de 10 minutos
+                assistidos por vídeo.
+              </p>
+            </div>
+          </div>
+          <div class="stats-block" id="twitter-stats">
+            <img class="stats-icon" src="assets/logos/twitter.webp" id="twitter-s_icon" loading="lazy"></img>
+            <div class="stats-item">
+              <h3 class="subtitle left whitep">TWITTER</h3>
+              <p class="whitep">
+                Na plataforma azul é onde os Vtubers internacionais iniciaram sua fama e por aqui não foi diferente.
+                Temos uma força muito grande em conjunto com a comunidade de artistas brasileiros (que não apenas
+                apreciam a criação de conteúdo como trabalham junto com os talentos). Com mais de 1M+ seguidores no
+                geral.
+              </p>
+            </div>
+          </div>
+          <div class="stats-block" id="twitch-stats">
+            <img class="stats-icon" src="assets/logos/twitch.webp" id="twitch-s_icon" loading="lazy"></img>
+            <div class="stats-item">
+              <h3 class="subtitle left whitep">TWITCH</h3>
+              <p class="whitep">
+                Na twitch temos uma média conjunta de quase 2K de viewers ao vivo, mais de 469K+ seguidores e inscritos
+                pagos mensalmente. Tudo isso com canais bastante jovens, pouco mais de ano. Todavia o
+                demográfico atingido na twitch é mais velho, sendo ele em suma maioria acima de 16 anos.
+              </p>
+            </div>
+          </div>
+          <div class="stats-block" id="insta-stats">
+            <img class="stats-icon" src="assets/logos/insta.webp" id="insta-s_icon" loading="lazy"></img>
+            <div class="stats-item">
+              <h3 class="subtitle left whitep">INSTAGRAM</h3>
+              <p class="whitep">
+                O instagram basicamente é o setor de divulgação da parte artística dos membros. Lá postamos artes de fãs
+                e artes comissionadas dos talentos. Os stories também fazem parte da criação de conteúdo. Mesmo com o
+                anonimato, nossos membros ainda fazem gravações mostrando presentes e coisas do tipo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- 
+        <button class="stats-button button"><a target="_blank"
+            href="https://drive.google.com/file/d/1bBJ9EGumSJtDzT-Pi-1mDh7ouwQE6xqB/view?usp=drive_link">
+            <h4 class="subtitle">MEDIA KIT</h4>
+          </a></button>
+	-->
+      </section>
+
+      <!-- PARTNERS -->
+      <section class="section" id="partners">
+        <div class="slider">
+          <div class="slide-track">
+            <div class="opera-logo"></div>
+            <div class="square-logo"></div>
+            <div class="raid-logo"></div>
+            <div class="genshin-logo"></div>
+            <div class="sraiders-logo"></div>
+            <div class="marbles-logo"></div>
+            <div class="exitlag-logo"></div>
+
+            <div class="opera-logo"></div>
+            <div class="square-logo"></div>
+            <div class="raid-logo"></div>
+            <div class="genshin-logo"></div>
+            <div class="sraiders-logo"></div>
+            <div class="marbles-logo"></div>
+            <div class="exitlag-logo"></div>
+
+            <div class="opera-logo"></div>
+            <div class="square-logo"></div>
+            <div class="raid-logo"></div>
+            <div class="genshin-logo"></div>
+            <div class="sraiders-logo"></div>
+            <div class="marbles-logo"></div>
+            <div class="exitlag-logo"></div>
+
+            <div class="opera-logo"></div>
+            <div class="square-logo"></div>
+            <div class="raid-logo"></div>
+            <div class="genshin-logo"></div>
+            <div class="sraiders-logo"></div>
+            <div class="marbles-logo"></div>
+            <div class="exitlag-logo"></div>
+
+            <div class="opera-logo"></div>
+            <div class="square-logo"></div>
+            <div class="raid-logo"></div>
+            <div class="genshin-logo"></div>
+            <div class="sraiders-logo"></div>
+            <div class="marbles-logo"></div>
+            <div class="exitlag-logo"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACTS -->
+      <section class="section grid" id="contact">
+        <div class="audit-container">
+          <h3 class="title">AUDIÇÕES</h3>
+          <p>
+
+            Estamos com as audiçôes fechadas. Se tiver interesse de participar da NEOBAKA, aguarde o próximo período
+            das audições.
+
+            <!--
+            <strong>
+              Estamos com as audições abertas por tempo limitado. Se tiver interesse de participar da NEOBAKA, clique no
+              link abaixo e participe das audições. Estamos buscando novos talentos para fazerem parte da equipe.
+            </strong>
+            -->
+          </p>
+          <button class="audit-button">
+            <a href="#">
+              <h3 class="subtitle">FORMULÁRIO DE AUDIÇÃO</h3>
+            </a>
+          </button>
+        </div>
+        <div class="contact-container">
+          <h2 class="title">CONTATO</h2>
+          <div class="form">
+            <form method="POST" action="mailto:neobakacontato@gmail.com">
+              <div class="row">
+                <div class="col-75">
+                  <input type="text" id="fname" placeholder="Nome" />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-75">
+                  <input type="text" id="mail" placeholder="E-Mail" />
+                </div>
+              </div>
+              <div class="row"></div>
+              <div class="row">
+                <div class="col-75">
+                  <textarea id="subject" placeholder="Escreva Sua Mensagem" style="height: 10rem"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input class="button" type="submit" value="Enviar" />
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <!-- FOOTER -->
+  <footer class="section">
+    <div class="container">
+      <p>&copy;2024 <a href="https://twitter.com/neobaka">NEOBAKA</a></p>
+      <p class="dev">Desenvolvido por <a class="dev" href="https://twitter.com/HornetDaemon">Hornet</a>
+      </p>
+      <p>Todos os Direitos Reservados.</p>
+    </div>
+  </footer>
+  <script src="main.js" async></script>
+</body>
+
+</html>

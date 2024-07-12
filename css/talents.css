@@ -1,0 +1,213 @@
+/*====  VARIABLES ============================ */
+:root {
+  scroll-behavior: smooth;
+  /* Colors */
+  --body-color: rgb(0, 0, 0);
+  --body-color-alt: rgb(255, 255, 255);
+  --title-color: rgb(0, 0, 0);
+  --text-color: rgb(255, 255, 255);
+  --text-color-alt: #3b3b3b;
+  --hover-color: rgb(255, 50, 75);
+  --hover-color-alt: rgb(255, 50, 100);
+
+  /* Fonts */
+  --poppins: 'Poppins', sans-serif;
+  --dm-sans: 'DM Sans', sans-serif;
+  --nunito: 'Nunito', sans-serif;
+
+  /* Compatibility */
+  -webkit-font-smoothing: antialiased;
+  /* Para suavizar fontes no WebKit (incluindo Edge) */
+  -moz-osx-font-smoothing: grayscale;
+  /* Para suavizar fontes no Firefox */
+}
+
+/*====  TALENTS  ============================ */
+#talents.section {
+  align-items: center;
+  height: 100%;
+}
+
+#talents div.center {
+  display: flex;
+  justify-content: center;
+  margin: 5% 0%;
+}
+
+#talents h1 {
+  font-size: 2rem !important;
+  font-weight: 700;
+  color: #3F557A;
+}
+
+#talents h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0.5rem 0rem;
+}
+
+.talent-title-container {
+  text-align: center;
+  width: 18%;
+  height: auto;
+  border-radius: 6rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+/* CARDS */
+.card,
+.popup {
+  display: none;
+}
+
+div.cards.grid {
+  gap: 0rem !important;
+}
+
+.carousel-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  border-radius: 100%;
+  text-align: center;
+  /* Centraliza o texto */
+}
+
+.carousel-title {
+  font-size: 3em !important;
+  /* Aumenta o tamanho do título */
+  margin-right: 0px !important;
+  /* Espaço entre o título e o texto */
+  white-space: nowrap;
+  /* Impede que o texto quebre linha */
+  color: #ffffff !important;
+  /* Cor do texto branca */
+  font-family: var(--nunito);
+  text-shadow: 6px 6px 14px rgba(0, 0, 0, 0.5);
+}
+
+.text-container {
+  background-color: #3F557A;
+  color: white;
+  padding: 15px;
+  /* Aumenta o padding da descrição */
+  border-radius: 20px;
+  flex-grow: 1;
+  max-width: 80%;
+  /* Limita a largura para evitar que ocupe toda a tela */
+  margin-left: 10px;
+  /* Espaço à esquerda para separar do título */
+  text-align: left;
+  /* Alinha o texto à esquerda */
+  font-size: 1.2em;
+  /* Aumenta o tamanho da fonte da descrição */
+  box-shadow: 6px 6px 16px rgba(0, 0, 0, 0.5);
+}
+
+.carousel-container {
+  position: relative;
+  width: 70%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: calc(20% * 5);
+  /* Mostra cinco itens por vez */
+  margin: 0 auto;
+}
+
+.carousel-cell {
+  flex: 0 0 calc(25% - 20px);
+  /* Reduz o tamanho dos cards */
+  margin: 1%;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+}
+
+.carousel-cell:nth-child(1) {
+  margin: 1% 0% 0% 15%;
+}
+
+.carousel-cell:nth-child(4) {
+  margin: 1% 0% 0% 30%;
+}
+
+.carousel-cell:nth-child(7) {
+  margin: 1% 0% 0% 29%;
+}
+
+.carousel-cell img {
+  width: 100%;
+  border-radius: 50px;
+  filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.3));
+}
+
+.carousel-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.carousel-nav button {
+  background-color: transparent;
+  border: none;
+  padding: 20px;
+  cursor: pointer;
+  outline: none;
+  font-size: 3.5rem;
+  position: relative;
+}
+
+.carousel-nav button i {
+  font-size: 1.5em;
+  color: #ffffff;
+  background-color: #3F557A;
+  border-radius: 100%;
+}
+
+/* ALCANCE GERAL */
+div.subs-container {
+  margin: 0% 25%;
+  padding: 1%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 6px 6px #000;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.subs {
+  display: grid;
+  grid-template-columns: 10% 20% 10% 20% 10% 20% 10% 20%;
+  align-items: center;
+  justify-content: end;
+}
+
+div.subs i {
+  text-align: center;
+  font-size: 2rem;
+}
+
+div.subs p {
+  width: 10%;
+  text-align: center;
+  font-family: var(--poppins);
+  font-weight: 800;
+  font-size: 1.35rem;
+  color: #000;
+}
+
+div.subs a {
+  width: 50%;
+}
